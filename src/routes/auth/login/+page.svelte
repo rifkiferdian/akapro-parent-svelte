@@ -44,10 +44,10 @@
                                 </div>
 
                                 <div class="mb-3 ">
-                                    <label class="form-label">Password</label>
+                                    <label for="password" class="form-label">Password</label>
                                     <div class="input-group auth-pass-inputgroup">
                                         <input type="password" name="password" class="form-control" placeholder="Enter password" aria-label="Password" aria-describedby="password-addon" value="123456">
-                                        <button class="btn btn-light " type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
+                                        <button class="btn btn-light" type="button" id="password-addon" aria-label="Toggle password visibility"><i class="mdi mdi-eye-outline"></i></button>
                                     </div>
                                     <span class="text-danger"></span>
                                 </div>
@@ -68,17 +68,17 @@
 
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a href="#" class="social-list-item bg-primary text-white border-primary">
+                                            <a href="/sosmed" aria-label="login-sosmed" class="social-list-item bg-primary text-white border-primary">
                                                 <i class="mdi mdi-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a href="#" class="social-list-item bg-info text-white border-info">
+                                            <a href="/sosmed" aria-label="login-sosmed" class="social-list-item bg-info text-white border-info">
                                                 <i class="mdi mdi-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a href="#" class="social-list-item bg-danger text-white border-danger">
+                                            <a href="/sosmed" aria-label="login-sosmed" class="social-list-item bg-danger text-white border-danger">
                                                 <i class="mdi mdi-google"></i>
                                             </a>
                                         </li>
