@@ -339,6 +339,7 @@ File: Main Js File
         initPreloader();
         Waves.init();
         initCheckAll();
+        cobacoba();
     }
 
     init();
